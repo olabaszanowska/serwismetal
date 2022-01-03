@@ -1,0 +1,141 @@
+body {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: rgb(77, 77, 77);
+    background-color: rgb(37, 37, 37);
+    font-size: large;
+}
+
+#naglowek {
+    border: 10px solid transparent;
+    text-shadow: 2px 1px rgba(177, 211, 255, 0.548);
+    clear: both;
+    text-transform: uppercase;
+    }
+
+#logo {
+    float: left;
+}
+
+#main {
+    margin: 3%;
+    padding: 3%;
+    background-color: rgb(226, 226, 226);
+    
+}
+
+#menu {
+    height: 100px;
+}
+
+#tlo {
+    max-width: 100%;
+}
+
+.tekst {
+    max-width: 70%;
+    margin: auto;
+    position: relative;
+    background-color: white;
+}
+
+
+/*kontakty*/
+.contacts{
+    margin-left: auto;  
+    margin-right: auto;
+}
+
+.main-container {  
+    width: auto;
+
+  }
+  
+  .user-card {
+    background-color: white;
+    border-radius: 5%;
+    color: white;
+    height: auto;
+    text-align: center;
+    width: 23%;
+    
+  }
+  
+  .user-avatar {
+    border-radius: 50%;
+    border: 2px solid rgb(231, 102, 63);
+    margin-top: 5%;
+    width: 40%;
+  }
+  
+  .user-name {
+    color: black;    
+    font-size: 14px;
+    font-weight: bold;
+
+  }
+  
+  .user-profession {
+    color: black;
+    font-size: 14px;
+
+  }
+  
+  .btn-follow {
+    background-color: rgb(224, 178, 136);
+    border-radius: 5%;
+    border: none;
+    color: aliceblue;
+    font-size: 16px;
+    padding: 5% 20%;
+  }
+  
+  .btn-follow:hover {
+    background-color: rgb(138, 109, 185);
+  }
+  
+  
+  .card-one, .card-two, .card-three, .card-four {
+    float: left;
+  }
+  
+  .card-three {
+    clear: both;
+  }
+    /* RWD */
+
+    
+    @media all and (min-width: 576px) {
+
+    }
+   
+   @media all and (min-width: 768px) {
+      section {
+        display: flex;
+        flex-wrap: wrap;
+   
+      }
+   
+      .koty {
+        width: 50%;
+      }
+   
+     }
+   
+   @media all and (min-width: 992px) {
+   
+     header h1 {
+       font-size: 40px;
+     }
+     header a {
+       margin-top: 50px;
+     }
+   
+      }
+   
+   @media all and (min-width: 1200px) {
+     .koty {
+       width: calc(100% / 3);
+     }
+   
+       }
